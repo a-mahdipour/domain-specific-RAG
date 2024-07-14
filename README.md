@@ -15,7 +15,7 @@ Tokenize the text if necessary.
 Store the embeddings in a vector database for efficient retrieval (e.g., FAISS, Milvus, or Elasticsearch):
 
 ### Why BERT? 
-(1) Bidirectional Encoder Representations from Transformers) is designed to understand the context of words in a sentence by looking at both left and right contexts. This bidirectional nature allows BERT to create rich, context-aware embeddings for documents. (2) High-Quality Embeddings: BERT’s embeddings capture semantic meaning effectively, enabling better matching between queries and documents. This is crucial for retrieving the most relevant documents in a RAG system.
+(1) Bidirectional Encoder Representations from Transformers is designed to understand the context of words in a sentence by looking at both left and right contexts. This bidirectional nature allows BERT to create rich, context-aware embeddings for documents. (2) High-Quality Embeddings: BERT’s embeddings capture semantic meaning effectively, enabling better matching between queries and documents. This is crucial for retrieving the most relevant documents in a RAG system.
 (3) Fine-Tuning Capabilities: BERT can be fine-tuned on specific datasets to further enhance its ability to understand domain-specific language, which improves the relevance and precision of the document embeddings.
 
 
